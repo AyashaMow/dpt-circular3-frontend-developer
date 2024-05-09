@@ -8,7 +8,7 @@ const Navbar = ({ onDateChange }) => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">Flight Search</div>
+      <div className="navbar-brand">Flight </div>
       <div className="navbar-search">
         <label htmlFor="date">Select Date:</label>
         <input type="date" id="date" onChange={handleDateChange} />
